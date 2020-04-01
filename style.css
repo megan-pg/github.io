@@ -1,0 +1,73 @@
+header {
+    background: #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    
+}
+
+#left {
+        background: #666;
+        float: left;
+        padding: 10px;
+        width: 31%;
+        text-align: center;
+        margin: 10px 0px;
+}
+
+#middle {
+            background: #888;
+            float: left;
+            padding: 10px;
+            width: 31%;
+            text-align: center;
+            margin: 10px 0px;
+}
+
+ #right {
+        background: #666;
+        float: left;
+        padding: 10px;
+        width: 31%;
+        text-align: center;
+        margin: 10px 0px;
+ }
+
+ #full {
+    background: #eee;
+    padding: 60px;
+    text-align: right;
+    margin: 40px 0px;
+}
+ aside {
+    background: #fff;
+    float: left;
+    border: 10px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    
+}
+ #division {
+    background: #6ea3da;
+    float: center;
+    border: 10px;
+    padding: 10px;
+    width: 97%;
+    text-align: center;
+    margin: 20px;
+}
+
+footer {
+    background: #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0px;
+}
