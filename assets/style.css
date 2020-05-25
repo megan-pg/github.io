@@ -1,73 +1,80 @@
-header {
-    background: #ccc;
-    padding: 20px;
-    text-align: center;
-    margin: 10px 0px;
+.card {
+    padding: 5px;
+    margin: 5px;
+    border-color: darkgrey;
 }
 
-.clearfix::after {
-    content: "";
-    display: block;
+body {
+    background-color:#D3D3D3;
+}
+
+.container {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.card-link {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+
+}
+
+.card-body {
+margin: 0;
+margin-top: 0 !important;
+}
+.mt-0 {
+    margin-top: 0 !important;
+  }
+
+
+hr {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-brand {
+    color: white;
+}
+ 
+    .portfolio-back {
+        background-color: white;
+    }
+
+    h2 {
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: lighter;
+    }
     
-}
+    h3 {
+        color:purple;
+    }
 
-#left {
-        background: #666;
-        float: left;
-        padding: 10px;
-        width: 31%;
-        text-align: center;
-        margin: 10px 0px;
-}
 
-#middle {
-            background: #888;
-            float: left;
-            padding: 10px;
-            width: 31%;
-            text-align: center;
-            margin: 10px 0px;
-}
+    h6 {
+        color: white;
+    }
 
- #right {
-        background: #666;
-        float: left;
-        padding: 10px;
-        width: 31%;
-        text-align: center;
-        margin: 10px 0px;
- }
+    #boarder {
+        background-color: white;
+        padding: 15px;
+    }
 
- #full {
-    background: #eee;
-    padding: 60px;
-    text-align: right;
-    margin: 40px 0px;
-}
- aside {
-    background: #fff;
-    float: left;
-    border: 10px;
-    padding-top: 20px;
-    padding-bottom: 60px;
-    padding-right: 30px;
-    padding-left: 30px;
-    text-align: center;
-    
-}
- #division {
-    background: #6ea3da;
-    float: center;
-    border: 10px;
-    padding: 10px;
-    width: 97%;
-    text-align: center;
-    margin: 20px;
-}
+    .card-text {
+        padding-left: 10px;
+    }
 
-footer {
-    background: #ccc;
-    padding: 20px;
-    text-align: center;
-    margin: 20px 0px;
-}
+    .btn go {
+        background-color: purple;
+    }
