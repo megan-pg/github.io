@@ -1,0 +1,52 @@
+
+.quiz {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    background-color: blue;
+    position: absolute;
+    
+}
+
+#quiz {
+  display: none;
+}
+
+
+body {
+    font-size: 24px;
+}
+
+#intro {
+    display: block;
+    padding: 15px 35px;
+    margin: 15px auto;
+}
+
+#start-button {
+    border: 2px solid black;
+    color: white;
+    background-color: blueviolet;
+    font-size: 32px;
+    display: block;
+    padding: 15px 35px;
+    margin: 15px auto;
+}
+#play-again {
+    border: 2px solid black;
+    color: white;
+    background-color: blueviolet;
+    font-size: 32px;
+    display: block;
+    padding: 15px 35px;
+    margin: 15px auto;
+}
+
+#view-scores {
+    border: 2px solid black;
+    background-color: blueviolet;
+    font-size: 32px;
+    display: block;
+    padding: 15px 35px;
+    margin: 15px auto;
+}
