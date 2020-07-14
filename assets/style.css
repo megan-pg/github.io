@@ -1,11 +1,22 @@
+
 .card {
     padding: 5px;
     margin: 5px;
     border-color: darkgrey;
 }
 
+.nav-link {
+    color: #4B0082;
+}
+
 body {
-    background-color:#D3D3D3;
+   /* background-image: url(pictures/hubblesmall.png), url(pictures/stars.png);*/
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+   background-size: contain, cover;
+   /*background-color: black;*/
+ background-color:#D3D3D3;
 }
 
 .container {
@@ -13,6 +24,11 @@ body {
     margin-bottom: 30px;
 }
 
+.footer-copyright{
+    padding: 30px;
+    border-bottom: yellow;
+    border-bottom: 30px;
+}
 
 .card-link {
     color: white;
@@ -26,6 +42,11 @@ body {
     font-size: larger;
     text-align: center;
 
+}
+
+
+.page-footer {
+    padding: -40px;
 }
 
 .card-body {
@@ -75,6 +96,6 @@ hr {
         padding-left: 10px;
     }
 
-    .btn go {
+    .btn{
         background-color: #4B0082;
     }

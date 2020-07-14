@@ -32,23 +32,17 @@
                 <h2>MEGAN</h2>
             </a>
         </nav>
-        <button class="navbar-toggler" type="button" aria-controls="navbarNavDropdown" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item ">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-                </li>
-            </ul>
-        </div>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
     </nav>
     <main>
         <div class="container">
@@ -58,7 +52,14 @@
                         <div class="card" style="width: 100%;">
                             <h3 class="card-title">Contact</h3>
                             <hr>
-                            <form>
+                            <div id="card-body">
+                                <img src="assets/pictures/voyager.gif" class="card-img-top"
+                                    alt="Image of author Megan Pardy-Gokcu"
+                                    style="float:right; width:30%; padding: 10px;">
+                                    <p class="card-text">Please contact me through
+                             <a href="https://www.linkedin.com/in/megan-pardy-gokcu-csm-222a2590/">LinkedIn Messaging</a>. I will respond as soon as possible and we can collaborate on whatever you need!</p>
+                            </div>
+                            <!-- <form>
                                 <div class="form-group">
                                     <label for="exampleInputName">Name</label>
                                     <input type="name" class="form-control" id="exampleInputName">
@@ -76,7 +77,7 @@
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
                                 <button type="submit" class="btn btn-dark">Submit</button>
-                            </form>
+                            </form>-->
                         </div>
                     </div>
                 </div>
@@ -86,7 +87,7 @@
     <footer>
         <nav class="navbar sticky-bottom navbar-light" style="background-color: #4B0082;">
             <a class="navbar-brand">
-                <h6>My Responsive Portfolio Copyright 2020</h6>
+                <h6>Megan Pardy Gokcu's Portfolio Copyright 2020</h6>
             </a>
         </nav>
     </footer>
