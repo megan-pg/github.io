@@ -16,15 +16,6 @@
 </head>
 
 <body>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
     <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
         <nav class="navbar navbar-light" style="background-color: #4B0082;">
             <!-- Navbar content -->
@@ -53,13 +44,54 @@
                             <h3 class="card-title">Contact</h3>
                             <hr>
                             <div id="card-body">
+                                <div class="form-container z-depth-5">
+                                    <h4 class="contact">Contact Me:</h4>
+                                    <p></p>
+                                    <form action="mailto:meg.pardy@gmail.com" method="post" enctype="text/plain">
+                                        Name:<br>
+                                        <input type="text" name="name"><br>
+                                        E-mail:<br>
+                                        <input type="text" name="mail"><br>
+                                        Comment:<br>
+                                        <input type="text" name="comment" size="50"><br><br>
+                                        <button class="waves-effect waves-light btn submitbtn purple lighten-2" type="submit"
+                                            value="Send"><i class="material-icons left">email</i>Submit</button>
+                                        <br><br>
+                                        <div class="phoneCall">Call for more details<a href="tel:603-923-0446"><i
+                                                    class="material-icons left">phone</i></a></div>
+                                    </form>
+                                </div>
+                                <div>
                                 <img src="assets/pictures/voyager.gif" class="card-img-top"
+                                    alt="Image of author Megan Pardy-Gokcu"
+                                    style="float:right; width:30%; padding: 10px;">
+                                </div>
+                                <!--<form>
+                                    <p>Questions or comments, contact me here!</p>
+                                    <div class="form-group">Name</label>
+                                      <input type="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
+                                      <small id="emailHelp" class="form-text text-muted">We'll never share your information with anyone else.</small>
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="exampleInputEmail">Email address</label>
+                                      <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <label for="exampleInputPhone"></label>
+                                      <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="form-group form-check">
+                                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary" id="submit-button">Submit</button>
+                                  </form>-->
+                                <!--<img src="assets/pictures/voyager.gif" class="card-img-top"
                                     alt="Image of author Megan Pardy-Gokcu"
                                     style="float:right; width:30%; padding: 10px;">
                                 <p class="card-text">Please contact me through
                                     <a href="https://www.linkedin.com/in/megan-pardy-gokcu-csm-222a2590/">LinkedIn
                                         Messaging</a>. I will respond as soon as possible and we can collaborate on
-                                    whatever you need!</p>
+                                    whatever you need!</p>-->
                             </div>
                             <!-- <form>
                                 <div class="form-group">
@@ -93,6 +125,12 @@
             </a>
         </nav>
     </footer>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="assets/script.js"></script>
 </body>
 
 
