@@ -16,7 +16,7 @@ body {
    background-attachment: fixed;
    background-size: contain, cover;
    /*background-color: black;*/
- background-color:#D3D3D3;
+ background-color:#483D8B;
 }
 
 .container {
@@ -98,4 +98,13 @@ hr {
 
     .btn{
         background-color: #4B0082;
+        color:white;
+    }
+
+    .subbtn {
+        color: white;
+    }
+
+    .sub {
+        color: white;
     }
