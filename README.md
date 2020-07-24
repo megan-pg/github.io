@@ -32,4 +32,4 @@ Project is created with:
 
 ## Link to Page
 
-* https://github.com/megan-pg/github.io/
+* https://megan-pg.github.io/github.io/

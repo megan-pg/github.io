@@ -1,8 +1,11 @@
 
 .card {
+    color: white;
     padding: 5px;
     margin: 5px;
-    border-color: darkgrey;
+    border-color: grey;
+    background:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .nav-link {
@@ -10,13 +13,13 @@
 }
 
 body {
-   background-image: url(pictures/pure-star-nebula.jpg), url(pictures/stars.png);
+   background-image: url(pictures/starry-sky.jpg), url(pictures/stars.png);
    background-repeat: repeat;
    background-position: center;
    background-attachment: fixed;
    background-size: contain, cover;
    /*background-color: black;*/
- background-color:#483D8B;
+ background-color:black;
 }
 
 .container {
@@ -62,10 +65,11 @@ hr {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    background:grey;
 }
 
 .navbar-brand {
-    color: white;
+    color: lightgray;
 }
  
     .portfolio-back {
@@ -79,16 +83,18 @@ hr {
     }
     
     h3 {
-        color:#4B0082;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
 
     h6 {
         color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
     #boarder {
-        background-color: white;
+        background-color: black;
         padding: 15px;
     }
 
@@ -97,8 +103,8 @@ hr {
     }
 
     .btn{
-        background-color: #4B0082;
-        color:white;
+        background-color:lightgrey;
+        color:black;
     }
 
     .subbtn {
