@@ -13,7 +13,7 @@
 }
 
 body {
-   background-image: url(pictures/starry-sky.jpg), url(pictures/stars.png);
+   /*background-image: url(pictures/starry-sky.jpg), url(pictures/stars.png);*/
    background-repeat: repeat;
    background-position: center;
    background-attachment: fixed;
